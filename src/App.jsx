@@ -508,25 +508,6 @@ const TypingProductivityAnalyzer = () => {
               <Zap className="w-8 h-8 text-indigo-600" />
               <h1 className="text-2xl font-bold text-gray-800">TypingPro</h1>
             </div>
-             <div className="max-w-7xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <Zap className="w-8 h-8 text-indigo-600" />
-              <h1 className="text-2xl font-bold text-gray-800">TypingPro AI</h1>
-            </div>
-            <div className="flex space-x-2">
-              <button
-                onClick={() => window.location.href = "https://github.com/adityachaurasia-lab/smart-ai-typing-productivity-analyzer"}
-                className={`px-6 py-2 rounded-lg font-medium transition-all ${
-                    currentView === 'dashboard'
-                    ? 'bg-indigo-600 text-white shadow-lg'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                <Github className="w-4 h-4 inline mr-2" />
-                View on Github
-              </button>
-            </div>
           </div>
         </div>
       </nav>
